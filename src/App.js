@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
-import HomePage from "./page/HomePage";
+import {view as Todos} from './todos';
+import {view as Filter} from './filter';
+
 
 function App() {
   return (
-      <HomePage/>
+      <div>
+        <Todos />
+        <Filter />
+      </div>
   );
 }
 
