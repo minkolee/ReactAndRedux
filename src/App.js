@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-import ControlPanel from "./component/ControlPanel";
+import HomePage from "./page/HomePage";
 
 function App() {
   return (
-      <ControlPanel />
+      <HomePage/>
   );
 }
 

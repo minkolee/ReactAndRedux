@@ -1,0 +1,13 @@
+.buttons {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    button {
+        flex: 1;
+        border: none;
+        height: 30px;
+        width: 30px;
+        background-color: dodgerblue;
+        color: white;
+    }
+}
